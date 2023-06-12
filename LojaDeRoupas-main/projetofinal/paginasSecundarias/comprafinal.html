@@ -22,24 +22,34 @@
                   
             </ul>
       </nav>
-            <form action="finalizando.html" method="get">
-            <div class="formulario">
-                  <input type="text" name="nome:" required> <br>
-                  <label>E-mail</label>
-                  <input type="email" name="email:" required> <br>
-                  <label>Assunto</label> 
-                  <select name="assunto:">
-                  <option value="assistente:">falar com assistente</option>
-                  <option value="cobranca:">meu pedido não chegou</option>
-                  <option value="envio" selected>erro no envio</option>
-                  </select> <br>
-                  <label>mensagem:</label>
-                  <textarea name="mensagem"></textarea> <br>
-                  <input type="checkbox" name="termo" value="Concordo com os termos de privacidade do site" required>
-                  <label>Concordo com os termos de privacidade do site</label> <br>
-                  <input type="submit" value="enviar" required>
-             </form>
-            </div>
+
+            <section style="text-align:center">
+                <h1>Finalize sua compra</h1>
+                <h3>Preencha as informações para finalizar a compra</h3>
+                <form action="obrigadocompra.html" method="get">
+                    <label>Digite o seu nome: </label>
+                    <br>
+                    <input type="text" name="nome" required>
+                    <br>
+                    <br>
+                    <label>Digite o seu E-mail: </label>
+                    <br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <br>
+                    <label>Digite o seu endereço: </label>
+                    <br>
+                    <textarea name="mensagem" type="text" required> </textarea>             
+                    <br> 
+                    <br>
+                    <input type="checkbox" name="termo" value="Concordo com os Termos" required>
+                    <label>Concordo com os Termos de Privacidade do Site</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar mensagem">
+                    <br> 
+                </form>
+            </section>      
 
             <section class="direitos">
                                 Uniply
