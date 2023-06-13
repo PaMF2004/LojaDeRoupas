@@ -9,15 +9,22 @@ body{
 }
 
 
-.nomeLoja{
+.formulario{
     color: white;
+    text-decoration: none;
+    font-family: 'Alkatra', cursive;
+    font-size: 100%;
+
+    
+}
+.nomeLoja{
+    color: black;
     text-decoration: none;
     font-family: 'Alkatra', cursive;
     font-size: 150%;
 
     
 }
-
 .nav{
     display: flex;
     flex-direction: row;
