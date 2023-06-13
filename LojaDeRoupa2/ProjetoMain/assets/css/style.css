@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap');
+*{
+    margin:0%;
+    color: white;
+}
+
+body{
+    background-color: #ded9ce;
+}
+
+
+.nomeLoja{
+    color: white;
+    text-decoration: none;
+    font-family: 'Alkatra', cursive;
+    font-size: 150%;
+
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(146, 134, 134);
+    text-decoration: none;
+    /* height: 100%; */
+    padding-bottom: 1.5rem;
+    align-items:end;
+    
+
+}
+
+.iconeLoja{
+    width: 2px;
+    height: 2px;
+}
+
+.linkRoupa{
+    text-decoration: none;
+    color:white;
+    font-size:larger;
+    /* border: 2px solid black;
+    border-radius: 5%; */
+}
+
+.imgIndex{
+    width: 100%;
+}
+
+
+
+.qmsms {
+    margin: 0;
+    font-family: Verdana;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #ded9ce
+}
+
+.img {
+    opacity: 0.5;
+    bottom: 0.5rem;
+    right: 1rem;
+    font-size: 1.125rem;
+    width: 28.125rem; 
+    height: 6.25rem;
+    float: right;
+}
+
+.footer{
+    display: flex;
+    padding-bottom:0;
+    background-color: #ded9ce;
+    flex-direction: column-reverse
+}
+
+.qmsms {
+    margin: 0;
+    padding-top:0;
+    font-family: Verdana;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.box{
+    width: 35%;
+}
+
+.logoFooter{
+    padding-left: 40%;
+    width: 20%;
+}
+
