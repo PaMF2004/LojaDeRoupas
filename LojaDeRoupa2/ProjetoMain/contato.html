@@ -20,25 +20,37 @@
             <a class="nomecarro" href="simulacao.html">Carrinho</a>
         </nav>
 
-                <section style="text-align:center">
-                <h1>Nos Contate</h1>
-                <h3>Preencha as informações para realizar contato</h3>
-                <form action="contatofim.html" method="get">
-                  <label>Nome</label>
-                  <input type="text" name="nome:" required> <br>
-                  <label>E-mail</label>
-                  <input type="email" name="email:" required> <br>
-                  <label>Assunto</label> 
-                  <select name="assunto:">
-                  <option value="assistente:">falar com assistente</option>
-                  <option value="cobranca:">meu pedido não chegou</option>
-                  <option value="envio" selected>erro no envio</option>
-                  </select> <br>
-                  <label>mensagem:</label>
-                  <textarea name="mensagem"></textarea> <br>
-                  <input type="checkbox" name="termo" value="Concordo com os termos de privacidade do site" required>
-                  <label>Concordo com os termos de privacidade do site</label> <br>
-                  <input type="submit" value="enviar" required>
+            <section style="text-align:center">
+                <h1>Nos contate</h1>
+                <h3>Preencha as informações para nos contatar</h3>
+                <form action="obrigadocompra.html" method="get">
+                    <label>Digite o seu nome: </label>
+                    <br>
+                    <input type="text" name="nome" required>
+                    <br>
+                    <br>
+                    <label>Digite o seu E-mail: </label>
+                    <br>
+                    <input type="email" name="email" required>
+                    <br>
+                    <br>
+                    <label>Digite o seu endereço: </label>
+                    <br>
+                    <select name="assunto:">
+                    <option value="assistente:">falar com assistente</option>
+                    <option value="cobranca:">meu pedido não chegou</option>
+                    <option value="envio" selected>erro no envio</option>
+                    </select> 
+                    <br>
+                    <textarea name="mensagem" type="text" required> </textarea>             
+                    <br> 
+                    <br>
+                    <input type="checkbox" name="termo" value="Concordo com os Termos" required>
+                    <label>Concordo com os Termos de Privacidade do Site</label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Enviar mensagem">
+                    <br> 
                 </form>
             </section>      
     <footer class="footer">
