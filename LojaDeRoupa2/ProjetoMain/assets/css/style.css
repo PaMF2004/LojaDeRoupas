@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap');
 *{
-    margin:0%;
+    margin: 0;
     color: white;
 }
 
@@ -28,6 +28,7 @@ body{
     /* height: 100%; */
     padding-bottom: 1.5rem;
     align-items:end;
+    padding-left: 0;
     
 
 }
@@ -96,5 +97,19 @@ body{
 .logoFooter{
     padding-left: 40%;
     width: 20%;
+}
+
+.BlusasFemininasGeral{
+    display: flex;
+    justify-content:flex-end;
+   
+    
+}
+
+.CalcasFemininasGeral{
+    display: flex;
+    align-content: center;
+    
+
 }
 
